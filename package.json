@@ -1,13 +1,16 @@
 {
   "name": "please-use-pnpm",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "强制在项目中使用 pnpm 作为包管理工具",
   "main": "bin.js",
   "bin": "bin.js",
   "files": [
     "bin.js"
   ],
-  "keywords": ["npm", "pnpm"],
+  "keywords": [
+    "npm",
+    "pnpm"
+  ],
   "author": "ChasLui <chaslui@outlook.com>",
   "license": "MIT",
   "repository": "chaslui/please-use-pnpm",
