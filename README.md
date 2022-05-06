@@ -17,7 +17,7 @@
 
 ## 效果
 
-当使用 `npm i` 或者 `yarn` 安装包时，会报错并停止安装。
+当使用 `npm i` 或者 `pnpm` 安装包时，会报错并停止安装。
 
 ![](./screen.png)
 
@@ -26,7 +26,7 @@
 ```json
 {
   "scripts": {
-    "preinstall": "npx -q please-use-yarn"
+    "preinstall": "npx -q please-use-pnpm"
   }
 }
 ```
